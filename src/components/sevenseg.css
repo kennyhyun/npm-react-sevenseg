@@ -1,0 +1,57 @@
+/* ky-ut-7seg */
+.sevenseg {
+  position: relative;
+  display: inline-block;
+  width: 54px;
+  height: 91px;
+}
+.sevenseg.colon {
+  width: 27px;
+}
+.sevenseg span {
+  width: 54px;
+  height: 91px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: 54px 91px;
+  background-repeat: no-repeat;
+}
+.sevenseg span.seg-a {
+  background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="744.094" height="1052.362" fill="red"> <path d="M340.085 101.337c-31.428 1.058-62.628-1.689-94.398 2.86-13.939 3.735-30.365 8.825-40.55 19.525 18.21 22.188 35.628 45.332 54.327 66.929 120.918-.04 241.84.84 362.756.228 25.567-22.218 52.196-43.4 76.795-66.643-1.153-7.914-12.127-9.919-17.745-14.333-12.923-7.437-28.22-9.332-44.322-8.057-98.952-.18-197.84-.721-296.863-.51z"/></svg>');
+}
+.sevenseg span.seg-b {
+  background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="744.094" height="1052.362" fill="red"> <path d="M668.096 164.21c-13.01 11.444-26.864 22.278-39.361 34.093-18.107 103.989-37.158 208.144-54.677 312.029l38.503 45.913c16.733-10.592 32.148-26.75 48.395-39.457 9.276-7.872 5.498-21.412 9.246-31.64 16.835-99.663 36.668-199.385 51.077-299.008 3.643-20.54-2.323-39.42-12.347-54.994-10.352 4.473-19.365 16.048-29.222 23.148l-11.614 9.917z"/></svg>');
+}
+.sevenseg span.seg-c {
+  background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="744.094" height="1052.362" fill="red"> <path d="M582.234 596.106c-8.778 9.01-22.03 15.8-28.244 26.097-18.063 103.741-37.071 207.649-54.545 311.286 18.176 21.725 35.424 44.371 54.448 65.273 7.606-2.412 11.933-12.766 17.529-18.445 19.085-25.429 19.115-56.376 26.006-84.46 16.89-93.365 33.66-186.9 49.423-280.164l-35.44-42.887c-10.107 5.01-19.533 16.1-29.177 23.3z" stroke="#000" stroke-width="1.827" stroke-linejoin="round" stroke-opacity=".427"/></svg>');
+}
+.sevenseg span.seg-d {
+  background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="744.094" height="1052.362" fill="red"> <path d="M308.56 938.23c-60.646.324-121.296-.266-181.938.627l-78.703 68.071c4.024 7.375 14.507 11.283 22.254 15.647 25.21 10.523 56.202 4.636 84.188 6.716 113.235.318 226.368 1.559 340.105-1.176 17.69-2.678 35.341-9.482 50.758-20.673-2.772-9.576-13.083-16.577-18.644-25.2-12.451-14.629-24.087-30.24-37-44.298l-181.02.285z" stroke="#000" stroke-width="1.827" stroke-linejoin="round" stroke-opacity=".427"/> </svg>');
+}
+.sevenseg span.seg-e {
+  background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="744.094" height="1052.362" fill="red"> <path d="M108.977 592.965c-7.893 8.2-20.212 14.207-25.532 23.699-19.675 113.45-39.469 226.91-58.99 340.353 2.918 14.935 6.52 30.587 15.975 41.86 17.598-11.429 33.527-27.476 50.291-40.846 8.487-8.682 21.316-15.203 27.25-25.17 18.302-105.093 37.548-210.351 55.26-315.34l-37.65-45.571c-9.317 4.319-17.751 14.516-26.604 21.015z" stroke="#000" stroke-width="1.827" stroke-linejoin="round" stroke-opacity=".427"/> </svg>');
+}
+.sevenseg span.seg-f {
+  background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="744.094" height="1052.362" fill="red"> <path d="M193.85 130.404c-20.389 18.323-33.453 43.678-35.85 68.698-19.69 104.725-38.084 209.629-55.945 314.257 12.136 13.479 22.053 29.628 36.047 41.059 18.83-13.68 36.958-29.855 54.574-45.228 18.318-105.188 37.58-210.542 55.31-315.627l-52.231-63.273-1.844.11-.06.004z" stroke="#000" stroke-width="1.827" stroke-linejoin="round" stroke-opacity=".427"/> </svg>');
+}
+.sevenseg span.seg-g {
+  background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="744.094" height="1052.362" fill="red"> <path d="M197.235 517.984l-52.712 44.714c8.128 15.066 22.243 27.824 32.67 42.003 5.332 12.227 22.284 4.835 33.587 6.823 113.052-.23 226.108.457 339.157-.342l53.56-45.628c-8.337-15.739-22.555-29.257-33.145-44.145-6.579-7.272-20.894-1.35-30.56-3.287-114.19.101-228.379-.757-342.557-.138z" stroke="#000" stroke-width="1.827" stroke-linejoin="round" stroke-opacity=".427"/> </svg>');
+}
+.sevenseg span.seg-h {
+  background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="744.094" height="1052.362" fill="red"> <path d="M721.798 982.362a54.203 55 0 1 1-108.406 0 54.203 55 0 1 1 108.406 0z"/> </svg>');
+}
+.sevenseg span.seg-am {
+  background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="26"> <text y="16.53" x=".947" style="line-height:125%" font-size="8" font-weight="400" letter-spacing="0" word-spacing="0" font-family="Sans"> <tspan y="16.53" x=".947">AM</tspan> </text> </svg>');
+}
+.sevenseg span.seg-pm {
+  background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="26"> <text style="line-height:125%" x=".063" y="24.106" font-size="9" font-weight="400" letter-spacing="0" word-spacing="0" font-family="Sans"> <tspan x=".063" y="24.106" font-size="8">PM</tspan> </text> </svg>');
+}
+.sevenseg span.seg-sun {
+  background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="26"> <g stroke="#000" stroke-linejoin="round" fill="red"> <path d="M5.375 6.755a1.65 1.65 0 1 1-3.298 0 1.65 1.65 0 1 1 3.298 0z" stroke-width=".67849"/> <rect width="1.456" height=".043" x="-.665" y="6.691" ry=".021" stroke-width=".407"/> <rect ry=".021" y="6.691" x="6.532" height=".043" width="1.456" stroke-width=".407"/> <rect ry=".021" y="7.314" x="-6.484" height=".043" width="1.456" transform="rotate(-45)" stroke-width=".407"/> <rect width="1.456" height=".043" x=".713" y="7.314" ry=".021" transform="rotate(-45)" stroke-width=".407"/> <rect transform="scale(1 -1) rotate(-45)" width="1.456" height=".043" x="3.009" y="-2.179" ry=".021" stroke-width=".407"/> <rect transform="scale(1 -1) rotate(-45)" ry=".021" y="-2.179" x="10.206" height=".043" width="1.456" stroke-width=".407"/> <rect ry=".021" y="3.64" x="-11.039" height=".043" width="1.456" transform="rotate(-90)" stroke-width=".407"/> <rect width="1.456" height=".043" x="-3.842" y="3.64" ry=".021" transform="rotate(-90)" stroke-width=".407"/> </g> </svg>');
+}
+.sevenseg span.colon {
+  background-image: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="260" height="1052.362" fill="red"> <path d="M173.429 693.79a64.286 64.286 0 1 1-128.572 0 64.286 64.286 0 1 1 128.572 0zM230.571 325.22a64.286 64.286 0 1 1-128.571 0 64.286 64.286 0 1 1 128.571 0z"/> </svg>');
+  background-size: contain;
+  background-position: 16px 6px;
+}

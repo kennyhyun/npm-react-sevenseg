@@ -1,0 +1,22 @@
+{
+  "name": "npm-react-sevenseg",
+  "version": "0.0.2",
+  "description": "react seven segment component",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cp ../README.md . && cp ../LICENSE.txt . && babel src --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "author": "Kenny Kyunghyun Yeo",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "dependencies": {
+    "react": "^16.0.0"
+  }
+}

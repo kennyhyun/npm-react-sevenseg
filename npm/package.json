@@ -1,6 +1,6 @@
 {
-  "name": "npm-react-sevenseg",
-  "version": "0.0.2",
+  "name": "react-sevenseg",
+  "version": "0.0.1",
   "description": "react seven segment component",
   "main": "lib/index.js",
   "scripts": {

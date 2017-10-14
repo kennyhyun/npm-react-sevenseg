@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import { SSString } from './components';
+import { SSString } from 'react-sevenseg';
 import { DigitalClock } from './clock';
 
 class App extends Component {

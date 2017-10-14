@@ -1,11 +1,11 @@
 {
   "name": "react-sevenseg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "react seven segment component",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cp ../README.md . && cp ../LICENSE.txt . && babel src --out-dir lib",
+    "build": "cp ../README.md . && cp ../LICENSE.txt . && cp src/sevenseg.css lib/ && babel src --out-dir lib",
     "prepublish": "npm run build"
   },
   "author": "Kenny Kyunghyun Yeo",

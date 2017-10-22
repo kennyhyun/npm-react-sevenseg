@@ -90,7 +90,7 @@ const fonts = [
 
 export const SevenSeg = ({ char, dot, style, segStyle }) => {
   const code = char.charCodeAt(0);
-  const segs = fonts[code - 45] || [];
+  const segs = fonts[code - 45].slice() || [];
   if (dot) {
     segs.push(1);
   }
